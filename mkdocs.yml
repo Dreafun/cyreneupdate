@@ -22,6 +22,9 @@ theme:
       toggle:
         icon: material/weather-night
         name: Тёмная тема
+    - scheme: slate
+      primary: deep purple
+      accent: pink
   features:
     - navigation.instant
     - navigation.sections
