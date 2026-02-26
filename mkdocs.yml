@@ -1,6 +1,12 @@
 site_name: Cyrene Update Notes
 site_url: https://dreafun.github.io/cyreneupdate/
 repo_url: https://github.com/Dreafun/cyreneupdate
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
 theme:
   name: material
   language: ru
