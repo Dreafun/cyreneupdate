@@ -1,7 +1,29 @@
-site_name: Cyrene — Updates
+site_name: Cyrene Update Notes
+site_url: https://dreafun.github.io/cyreneupdate/
+repo_url: https://github.com/Dreafun/cyreneupdate
 theme:
   name: material
+  language: ru
   palette:
     - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Светлая тема
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Тёмная тема
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - search
+
 nav:
-  - Обновления: updates.md
+  - Главная: index.md
+  - Обновления:
+      - Список: updates/index.md
