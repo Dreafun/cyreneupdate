@@ -1,0 +1,7 @@
+site_name: Cyrene — Updates
+theme:
+  name: material
+  palette:
+    - scheme: slate
+nav:
+  - Обновления: updates.md
